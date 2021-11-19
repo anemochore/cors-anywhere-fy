@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "cors-anywhere": "latest",
+  }
+}
