@@ -4,6 +4,8 @@ var host = process.env.HOST || '0.0.0.0';
 var port = process.env.PORT || 8080;
 
 //export CORSANYWHERE_WHITELIST=https://www.dropbox.com
+console.log(process.env.CORSANYWHERE_WHITELIST)
+
 var cors_proxy = require('cors-anywhere');
 cors_proxy.createServer({
     originWhitelist: (process.env.CORSANYWHERE_WHITELIST || '').split(','),
