@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "cors-anywhere": "latest",
+    "cors-anywhere": "latest"
   }
 }
