@@ -1,4 +1,14 @@
 {
+  "name": "cors-anywhere-fy",
+  "version": "0.0.1",
+  "description": "what the...",
+  "engines": {
+    "node": "latest"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "cors-anywhere": "latest"
   }
